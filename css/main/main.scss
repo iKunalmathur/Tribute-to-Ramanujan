@@ -1,0 +1,81 @@
+//font import
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+$bg-primary :#F3DFC1;
+$text-primary : #1A1C1A;
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',
+        sans-serif;
+    background: $bg-primary;
+    color:$text-primary;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    padding: 2em;
+
+    .paper-title {
+        font-family: 'Old English Text MT';
+        font-size: 5rem;
+    }
+
+    .sharp-line {
+        margin: .1em 0;
+    }
+
+    .star-wrapper {
+        i {
+            font-size: 0.8rem;
+            color: #1A1C1A;
+        }
+    }
+    .span-wrapper {
+        display: flex;
+        justify-content: space-around;
+        span{
+            text-transform: capitalize;
+        }
+    }
+    .content{
+        padding: 1em 0;
+        .img{
+            img{
+                float: left;
+                margin: 5px 5px 5px 0px;
+                // margin: 0;
+            }
+        }
+        .img:nth-child(1) {
+            img{
+                float: right;
+                margin: 5px 0px 5px 5px;
+            }
+        }
+        p {
+            margin: 1px 0;
+            padding: 1px 0;
+            span{
+                font-weight: bold;
+                font-size: 2rem;
+            }
+        }
+    }
+    footer{
+        text-align: right;
+        a{
+            color: $text-primary;
+        }
+    }
+    
+}

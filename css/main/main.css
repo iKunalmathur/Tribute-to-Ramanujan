@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  background: #F3DFC1;
+  color: #1A1C1A;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  padding: 2em;
+}
+
+.container .paper-title {
+  font-family: 'Old English Text MT';
+  font-size: 5rem;
+}
+
+.container .sharp-line {
+  margin: .1em 0;
+}
+
+.container .star-wrapper i {
+  font-size: 0.8rem;
+  color: #1A1C1A;
+}
+
+.container .span-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container .span-wrapper span {
+  text-transform: capitalize;
+}
+
+.container .content {
+  padding: 1em 0;
+}
+
+.container .content .img img {
+  float: left;
+  margin: 5px 5px 5px 0px;
+}
+
+.container .content .img:nth-child(1) img {
+  float: right;
+  margin: 5px 0px 5px 5px;
+}
+
+.container .content p {
+  margin: 1px 0;
+  padding: 1px 0;
+}
+
+.container .content p span {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.container footer {
+  text-align: right;
+}
+
+.container footer a {
+  color: #1A1C1A;
+}
+/*# sourceMappingURL=main.css.map */
