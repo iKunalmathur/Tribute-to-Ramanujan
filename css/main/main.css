@@ -19,6 +19,8 @@ body {
 
 .container {
   padding: 2em;
+  position: relative;
+  min-height: 100vh;
 }
 
 .container .paper-title {
@@ -72,6 +74,9 @@ body {
 }
 
 .container footer {
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
   text-align: right;
 }
 

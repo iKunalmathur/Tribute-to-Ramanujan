@@ -24,7 +24,8 @@ body {
 
 .container {
     padding: 2em;
-
+    position: relative;
+    min-height: 100vh;
     .paper-title {
         font-family: 'Old English Text MT';
         font-size: 5rem;
@@ -72,6 +73,9 @@ body {
         }
     }
     footer{
+        position: absolute;
+        bottom: 2em;
+        right: 2em;
         text-align: right;
         a{
             color: $text-primary;
